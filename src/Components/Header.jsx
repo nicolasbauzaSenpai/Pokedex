@@ -56,4 +56,3 @@ export default function Header({ sort, setsort, pokemons, setpokemons, search, s
 }
 
 
-jghgg
