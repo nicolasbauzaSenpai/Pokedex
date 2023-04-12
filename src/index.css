@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body .progress {
+  --bs-progress-bar-bg: rgba(20, 20, 20, 0.39);
+}

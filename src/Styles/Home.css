@@ -1,0 +1,25 @@
+.home {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    grid-template:
+        "header" 200px
+        "pokemonList" auto;
+}
+
+.header {
+    grid-area: header;
+}
+
+.pokemonList {
+    grid-area: pokemonList;
+}
+
+@media (min-width: 300px) {
+    .home {
+        grid-template:
+            "header" 200px
+            "pokemonList" auto;
+    }
+
+}
