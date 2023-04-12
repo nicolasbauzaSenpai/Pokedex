@@ -35,7 +35,7 @@
 
 .avatar {
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   transform: translate(-50%, -170%);
   width: 160px;
@@ -163,7 +163,7 @@
 }
 
 @media only screen and (max-device-width: 1000px) and (orientation: landscape) {
-    .pokemonCard {
-        margin-top: 150px;
-    }
+  .pokemonCard {
+    margin-top: 150px;
+  }
 }
