@@ -56,7 +56,7 @@ export default function Header({ sort, setsort, pokemons, setpokemons, search, s
 }
 
 <<<<<<< HEAD
-hola
+
 =======
 
 >>>>>>> 75a8c8b6bb3744456ae1b2398ea338b8e836d2d3
