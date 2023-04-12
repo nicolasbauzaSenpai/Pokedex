@@ -39,13 +39,13 @@ export default function Header({ sort, setsort, pokemons, setpokemons, search, s
 
 
     }, [sort, search])
-    
+
 
     return (
         <div className='header'>
             <section className='iconsSection'>
                 <img src={Pokebola} alt="" />
-                <h3 style={{fontWeight:'bold'}} >Pokédex</h3>
+                <h3 style={{ fontWeight: 'bold' }} >Pokédex</h3>
             </section>
             <section className='inputSection'>
                 <input placeholder='Search' type="text" value={search} onChange={inputChange} />
@@ -55,5 +55,4 @@ export default function Header({ sort, setsort, pokemons, setpokemons, search, s
     )
 }
 
-
-jghgg
+hola
