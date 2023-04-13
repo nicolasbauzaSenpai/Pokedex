@@ -17,7 +17,7 @@ export default function Pokemonlist({
         return (
           <section className="pokemonBox" key={index}>
             <h6 className="pokemonId">
-              # {pokemon.number < 100 ? "00" + pokemon.number : pokemon.number}
+              # {pokemon.number < 10 ? "00" + pokemon.number : '0' + pokemon.number}
             </h6>
             <Link to={`/${pokemon.name}`}>
               <img src={pokemon.image} alt="" />

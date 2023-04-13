@@ -12,6 +12,7 @@ import back from "../img/chevron_left.png";
 import next from "../img/chevron_right.png";
 import pokeball from '../img/Pokeball.png'
 
+
 export default function PokemonCard() {
   const [pokemon, setpokemon] = useState(null);
   const { pokemonName } = useParams();
@@ -140,39 +141,39 @@ export default function PokemonCard() {
               >
                 Base Stats
               </p>
-              <section style={{display:'flex'}} >
-              <section className="progress-section d-flex">
-              <ProgressBar
-                  label='HP'
-                  style={{ backgroundColor: "rgba(128, 128, 128, 0.274)" }}
-                  now={pokemon.stats[0] / 2}
-                /> 
-                <ProgressBar
-                label='ATK'
-                  style={{ backgroundColor: "rgba(128, 128, 128, 0.274)" }}
-                  now={pokemon.stats[1] / 2}
-                />
-                <ProgressBar
-                label='DEF'
-                  style={{ backgroundColor: "rgba(128, 128, 128, 0.274)" }}
-                  now={pokemon.stats[2] / 2}
-                />
-                <ProgressBar
-                label='SATK'
-                  style={{ backgroundColor: "rgba(128, 128, 128, 0.274)" }}
-                  now={pokemon.stats[3] / 2}
-                />
-                <ProgressBar
-                label='SDEF'
-                  style={{ backgroundColor: "rgba(128, 128, 128, 0.274)" }}
-                  now={pokemon.stats[4] / 2}
-                />
-                <ProgressBar
-                label='SPD'
-                  style={{ backgroundColor: "rgba(128, 128, 128, 0.274)" }}
-                  now={pokemon.stats[5] / 2}
-                />
-              </section>
+              <section style={{ display: 'flex' }} >
+                <section className="progress-section d-flex">
+                  <ProgressBar
+                    label='HP'
+                    style={{ backgroundColor: "rgba(128, 128, 128, 0.274)" }}
+                    now={pokemon.stats[0] / 2}
+                  />
+                  <ProgressBar
+                    label='ATK'
+                    style={{ backgroundColor: "rgba(128, 128, 128, 0.274)" }}
+                    now={pokemon.stats[1] / 2}
+                  />
+                  <ProgressBar
+                    label='DEF'
+                    style={{ backgroundColor: "rgba(128, 128, 128, 0.274)" }}
+                    now={pokemon.stats[2] / 2}
+                  />
+                  <ProgressBar
+                    label='SATK'
+                    style={{ backgroundColor: "rgba(128, 128, 128, 0.274)" }}
+                    now={pokemon.stats[3] / 2}
+                  />
+                  <ProgressBar
+                    label='SDEF'
+                    style={{ backgroundColor: "rgba(128, 128, 128, 0.274)" }}
+                    now={pokemon.stats[4] / 2}
+                  />
+                  <ProgressBar
+                    label='SPD'
+                    style={{ backgroundColor: "rgba(128, 128, 128, 0.274)" }}
+                    now={pokemon.stats[5] / 2}
+                  />
+                </section>
               </section>
             </section>
           </section>
